@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Ponderada</title>
+</head>
+<body>
+    <h1>Descubra sua média no bimestre</h1>
+
+    <script>
+        let n1 = parseFloat(prompt("Digite sua primeira nota: "))
+        let n2 = parseFloat(prompt("Digite sua segunda nota: "))
+        let n3 = parseFloat(prompt("Digite sua terceira nota: "))
+
+        let p1 = 2
+        let p2 = 3
+        let p3 = 5
+
+        let media = (n1 * p1 + n2 * p2 + n3 * p3) / 10
+
+        document.write("Sua primeira nota é: " + n1.toFixed(1) + ", e o peso é " + p1 + "<br>")
+        document.write("Sua segunda nota é: " + n2.toFixed(1)  + ", e o peso é " + p2 + "<br>")
+        document.write("Sua terceira nota é: " + n3.toFixed(1)  + ", e o peso é " + p3 + "<br>")
+
+        document.write("Portanto, sua média final é: " + media.toFixed(1)  + ".")
+    </script>
+</body>
+</html>

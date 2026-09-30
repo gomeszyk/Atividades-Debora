@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule o montante-</title>
+</head>
+<body>
+    <h1>Insira o valor do depósito e a taxa de juros</h1>
+    <script>
+        let deposito = parseFloat(prompt("Digite o valor do depósito: "));
+        let taxaJuros = parseFloat(prompt("Digite a taxa de juros: "));
+        let meses = 12;
+
+        let montante = deposito + (deposito * taxaJuros / 100 * meses);
+
+        document.write("Valor do depósito: R$ " + deposito.toFixed(2) + "<br>");
+        document.write("Taxa de juros: " + taxaJuros.toFixed(0) + "%" + "<br>");
+        document.write("Montante após aplicação da taxa de juros: R$ " + montante.toFixed(2));  
+    </script>
+</body>
+</html>

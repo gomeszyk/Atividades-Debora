@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário com 15% de aumento</title>
+</head>
+<body>
+    <h1>Salário com 15% de aumento</h1>
+    <script>
+        let salario = parseFloat(prompt("Digite aqui seu salário atual: "))
+        let aumento = 15/100
+        let salarioaumento = salario + (salario * aumento )
+
+        document.write("O salário digitado foi: " + salario + "<br>")
+        document.write("Você recebeu um aumento de: " + (aumento * 100 ) + "%" + "<br>" + "<br>")
+        document.write("Com o aumento, seu novo salário é R$: " + salarioaumento )
+    </script>
+</body>
+</html>

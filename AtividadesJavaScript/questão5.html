@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preço do produto</title>
+</head>
+<body>
+    <h1>Descubra se você receberá desconto em seu produto</h1>
+    
+    <script>
+        let precoProduto = parseFloat(prompt("Digite o preço do produto: "));
+        let quantidade = parseInt(prompt("Digite a quantidade de produtos comprados: "));
+
+        let total = precoProduto * quantidade;
+
+        if (quantidade > 10) {
+            total = total * 10/100;
+        }
+
+        document.write("O valor total da compra é: R$ " + total.toFixed(2));
+    
+    </script>
+
+</body>
+</html>

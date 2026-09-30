@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário base, Salário com 5% de aumento</title>
+</head>
+<body>
+    <h1>Descubra seu salário líquido, com base no salário base e um aumento de 5%</h1>
+
+    <script>
+        let salarioBase = parseFloat(prompt("Digite o salário base: "));
+        let comissao = salarioBase * 5/100;
+        let salarioliquido = salarioBase + comissao;
+        document.write("Salário base: R$ " + salarioBase.toFixed(2) + "<br>");
+        document.write("Salário com 5% de aumento: R$ " + salarioliquido.toFixed(2));
+    </script>
+</body>
+</html>

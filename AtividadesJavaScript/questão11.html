@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Aritmética</title>
+</head>
+<body>
+    <h1>Calcule a média aritmética de 3 números</h1>
+    <script>  
+        let num1 = parseFloat(prompt("Digite o primeiro número: "));
+        let num2 = parseFloat(prompt("Digite o segundo número: "));
+        let num3 = parseFloat(prompt("Digite o terceiro número: "));
+
+        let mediaAritmetica = (num1 + num2 + num3) / 3;
+
+        document.write("O primeiro número é: " + num1 + "<br>");
+        document.write("O segundo número é: " + num2 + "<br>"); 
+        document.write("O terceiro número é: " + num3 + "<br>");
+
+        document.write("A média aritmética dos três números é: " + mediaAritmetica.toFixed(0)); 
+    </script>
+</body>
+</html>
