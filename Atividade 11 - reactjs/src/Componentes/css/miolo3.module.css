@@ -1,0 +1,51 @@
+.miolo3{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #b5622f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    gap: 40px;
+    color: white;
+}
+
+.mapa{
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.mapa iframe{
+    width: 600px; 
+    height:300px; 
+    border:0;
+}
+
+ .endereco{
+    width: 40%;
+    height: 300px;
+    background-color: rgb(168, 83, 83);
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+    & h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    & p{
+        font-size: 15px;
+    }
+ }
+
+ 
+
+ 

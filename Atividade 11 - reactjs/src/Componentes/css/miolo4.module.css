@@ -1,0 +1,85 @@
+.miolo4{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    gap: 40px;
+}
+
+.formulario{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label{
+    font-size: 14px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.formulario input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.formulario textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.formulario button{
+    width: 200px;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.formulario button:hover{
+    background-color: #ccc;
+    transition: 0.3s;
+}
+
+.redes{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes h2{
+    font-size: 25px;
+    color: #1a1a8c;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.icones{
+    display: flex;
+    gap: 15px;
+}
+
+.icones img{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
