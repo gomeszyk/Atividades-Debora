@@ -1,0 +1,39 @@
+import Styles from './css/home1.module.css'
+import Home from '../assets/img/img_home.png'
+function Home1() {
+    return (
+        <section className={Styles.home1}>
+
+            <div className={Styles.home1fundo}>
+                <div className={Styles.home1text}>
+                    <h2>INSTITUTO DE CONSCIENTIZAÇÃO</h2>
+                    <h1> QUATRO LUTAS.
+                        UMA SÓ VOZ.</h1>
+
+                    <p className={Styles.home1p}>
+                        O preconceito começa no silêncio. Aqui você encontra
+                        informação, dados e repertório para entender, sentir e
+                        agir contra o racismo, a transfobia, a misoginia e a
+                        homofobia.
+                    </p>
+
+                    <div className={Styles.botoes}>
+                        <button className={Styles.botao1}>Entender o preconceito</button>
+                        <button className={Styles.botao2}>Como Agir</button>
+                    </div>
+                </div>
+                
+                <div className={Styles.home1img}>
+                    <img src={Home} alt="Imagem de conscientização" />
+                </div>
+            </div>
+
+
+
+
+
+        </section>
+    )
+}
+
+export default Home1
