@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual fase da vida você está?</title>
+</head>
+<body>
+    <h1>Você é criança, adolescente ou adulto?</h1>
+
+    <script>
+        let idade = parseInt(prompt("Digite sua idade: "))
+
+        if(idade <= 12){
+            document.write("Você é uma criança!")
+        }
+
+        else if(idade >= 13 && idade <= 17){
+            document.write("Você é um adolescente!")
+        }
+
+        else if(idade >= 18){
+            document.write("Você é um adulto!")
+        }
+
+        else{
+            document.write("Idade inválida!")
+        }
+
+    </script>
+</body>
+</html>
