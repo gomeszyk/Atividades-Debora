@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual o maior número?</title>
+</head>
+<body>
+    <h1>Qual o maior número?</h1>
+
+    <script>
+        let numero1 = parseInt(prompt("Digite o primeiro número: "))
+        let numero2 = parseInt(prompt("Digite o segundo número: "))
+
+        if(numero1 > numero2){
+            document.write("O maior número é: " + numero1)
+        }
+
+        else if(numero2 > numero1){
+            document.write("O maior número é: " + numero2)
+        }
+
+        else{
+            document.write("Os números são iguais!")
+        }   
+    </script>
+</body>
+</html>
