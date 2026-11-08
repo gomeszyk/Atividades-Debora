@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você foi aprovado?</title>
+</head>
+<body>
+    <h1>Você foi aprovado?</h1>
+
+    <script>
+        let nota = parseFloat(prompt("Digite sua nota:"))
+
+        if(nota >= 7){
+            document.write("Parabéns! Você foi aprovado!")
+        }
+
+        else if(nota < 7 && nota >= 5){
+            document.write("Você está de recuperação!")
+        }
+
+        else{
+            document.write("Infelizmente você foi reprovado!")
+        }
+    </script>
+</body>
+</html>
