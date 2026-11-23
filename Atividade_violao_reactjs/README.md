@@ -1,16 +1,27 @@
-# React + Vite
+# 🎸 Interface de Violões — React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Atividade de interface web voltada ao universo de instrumentos musicais, desenvolvida com **React + Vite**, com estrutura dividida em componentes de cabeçalho, seções de conteúdo e rodapé.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React, JavaScript, Vite e CSS Modules.
 
-## React Compiler
+## Como executar
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+Execute os comandos **nesta pasta**. O terminal exibirá a URL do ambiente local.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Organização
+
+- `src/App.jsx`: composição da página.
+- `src/Componentes/`: cabeçalho, conteúdo e rodapé.
+- `src/Componentes/css/`: estilos dos componentes.
+- `src/assets/`: imagens e recursos.
+
+**Objetivo:** praticar componentização e organização de uma interface React. Não é um comércio eletrônico com pedidos reais.
+
+[← Ver coleção de atividades](../README.md)
